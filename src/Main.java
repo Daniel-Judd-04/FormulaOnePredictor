@@ -27,16 +27,16 @@ public class Main {
         // Define drivers
 
         drivers.add(Driver.NOR);
-        drivers.add(Driver.HUL);
-        drivers.add(Driver.COL);
-        drivers.add(Driver.ZHO);
         drivers.add(Driver.ALO);
+        drivers.add(Driver.BOT);
+        drivers.add(Driver.ALB);
+        drivers.add(Driver.COL);
         // Define constructors
 
         constructors.add(Constructor.FERRARI);
         constructors.add(Constructor.MCLAREN);
         // Create Team
-        Team comparableTeam = new Team("My Current Team", drivers, constructors, 1_800_000);
+        Team comparableTeam = new Team("My Current Team", drivers, constructors, 200_000);
         comparableTeam.setAllStats();
         // Display
         System.out.println("\n" + comparableTeam);
